@@ -13,4 +13,3 @@ class Home:
 
     def search_box(self):
         return self.driver.find_element(By.XPATH, '//input[1]')
-    
